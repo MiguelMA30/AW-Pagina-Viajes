@@ -1,0 +1,31 @@
+html, body{
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url('/imagenes/fondo.jpg') no-repeat center center fixed; 
+    background-size: 100%;
+   
+}
+#logo{
+    width: 3em;
+}
+
+#perfil{
+    width: 2em;
+}
+.card img, .dest-img{
+height: 10em;
+object-fit: cover;
+}
+#usuario:hover{
+    text-decoration: underline;
+}
+.pie{
+   
+   width: 100;
+    align-content: center;
+   position: absolute;
+}
